@@ -6,7 +6,7 @@
     "configurations": [
     
         {
-            "name": "car_rendal_app",
+            "name": "car_rental_app",
             "request": "launch",
             "type": "dart"
         }
