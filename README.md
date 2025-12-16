@@ -1,16 +1,16 @@
 # 🚗 Car Rental App (Flutter Web)
 
-این پروژه یک اپلیکیشن اجاره خودرو است که با **Flutter** توسعه داده شده و خروجی **Web / PWA** دارد. فایل ارائه‌شده (`index.html`) نقطه‌ی ورود (entry point) نسخه وب اپلیکیشن است.
+This project is a **Car Rental App** built with **Flutter** and deployed as a **Web / PWA** application. The provided file (`index.html`) serves as the entry point for the web version.
 
 ---
 
-## 📌 معرفی پروژه
+## 📌 Project Overview
 
-**Car Rental App** یک وب‌اپلیکیشن مدرن برای مدیریت و رزرو خودرو است که قابلیت اجرا به‌صورت Progressive Web App (PWA) را دارد و روی مرورگرهای دسکتاپ و موبایل قابل استفاده است.
+**Car Rental App** is a modern web application for managing and booking cars, with **Progressive Web App (PWA)** support, allowing it to run on both desktop and mobile browsers.
 
 ---
 
-## 🛠️ تکنولوژی‌های استفاده‌شده
+## 🛠️ Technologies Used
 
 * **Flutter (Web)**
 * **Dart**
@@ -19,13 +19,13 @@
 
 ---
 
-## 📁 ساختار فایل‌ها (نسخه وب)
+## 📁 Web File Structure
 
 ```
 web/
-├── index.html          # فایل اصلی HTML
-├── main.dart.js        # خروجی کامپایل‌شده Flutter
-├── manifest.json       # تنظیمات PWA
+├── index.html          # Main HTML file
+├── main.dart.js        # Compiled Flutter output
+├── manifest.json       # PWA configuration
 ├── flutter_service_worker.js
 ├── icons/
 │   └── Icon-192.png
@@ -34,41 +34,41 @@ web/
 
 ---
 
-## 🌐 توضیح index.html
+## 🌐 index.html Explanation
 
-فایل `index.html` شامل موارد زیر است:
+The `index.html` file includes:
 
-* تنظیم `base href` برای مسیر اجرای اپلیکیشن
-* متادیتاهای سازگار با مرورگرها و iOS
-* فعال‌سازی **PWA** با Service Worker
-* بارگذاری فایل `main.dart.js`
+* `base href` for the correct app path
+* Metadata for browser and iOS compatibility
+* **PWA activation** via Service Worker
+* Loading of `main.dart.js`
 
 ---
 
-## 🚀 اجرای پروژه
+## 🚀 Running the Project
 
-### پیش‌نیازها
+### Prerequisites
 
-* نصب Flutter SDK
-* فعال بودن Flutter Web
+* Install **Flutter SDK**
+* Enable **Flutter Web**
 
 ```bash
 flutter config --enable-web
 ```
 
-### اجرای پروژه روی مرورگر
+### Run on Browser
 
 ```bash
 flutter run -d chrome
 ```
 
-### بیلد نسخه وب
+### Build Web Version
 
 ```bash
 flutter build web
 ```
 
-پس از بیلد، فایل‌ها در مسیر زیر قرار می‌گیرند:
+After building, the output files will be located in:
 
 ```
 build/web/
@@ -76,17 +76,17 @@ build/web/
 
 ---
 
-## 📱 قابلیت PWA
+## 📱 PWA Support
 
-این پروژه از PWA پشتیبانی می‌کند، بنابراین:
+This project supports PWA, which means:
 
-* قابلیت نصب روی موبایل و دسکتاپ
-* اجرا به‌صورت آفلاین (در صورت پیاده‌سازی کش)
-* تجربه کاربری مشابه اپلیکیشن موبایل
+* Can be installed on mobile and desktop
+* Can run offline (if caching is implemented)
+* Provides a mobile-app-like experience
 
 ---
 
-## ✨ نام پروژه
+## ✨ Project Name
 
 ```text
 Car Rental App
@@ -94,21 +94,13 @@ Car Rental App
 
 ---
 
-## 📄 لایسنس
+## 📄 License
 
-این پروژه برای اهداف آموزشی و توسعه‌ای ایجاد شده است. در صورت استفاده تجاری، تنظیمات لایسنس را مشخص کنید.
+This project is created for educational and development purposes. Specify a license for commercial use.
 
 ---
 
-## 👨‍💻 توسعه‌دهنده
+## 👨‍💻 Developer
 
 * Flutter Developer
 * Web & Mobile Application
-
----
-
-اگر مایل بودید می‌توانم:
-
-* README انگلیسی بنویسم
-* بخش Features اضافه کنم
-* یا README مخصوص GitHub آماده کنم
